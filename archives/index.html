@@ -269,7 +269,27 @@
     </span><span id="busuanzi_container_site_pv">
                     戳了<span id="busuanzi_value_site_pv"></span>下.
                 </span></span>
-</div></div></div>
+</div>
+
+</div>
+<br>
+<script defer="defer">
+  fetch('https://v1.hitokoto.cn/?c=a')
+    .then(function(res) {
+      return res.json();
+    })
+    .then(function(data) {
+      const hitokotoContent = document.getElementById('hitokoto-content');
+      const hitokotoFrom = document.getElementById('hitokoto-from');
+      hitokotoContent.innerText = data.hitokoto;
+      hitokotoFrom.innerText = '——' + data.from;
+    })
+    .catch(function(err) {
+      console.error(err);
+    })
+</script><section class="hitokoto"><header><div><i class="fa fa-quote-left fa-fw" aria-hidden="true"></i> &nbsp;&nbsp; 一言（ヒトコト）</div></header><div class="content"><p style="text-align:center" id="hitokoto-content"></p><p style="text-align:right;margin-top:15px" id="hitokoto-from"></p></div></section>
+
+</div>
 
 <div class="card widget">
     <div class="card-content">
