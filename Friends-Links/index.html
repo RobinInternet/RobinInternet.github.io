@@ -16,7 +16,7 @@
 <meta property="og:description" content="body, html { font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;微软雅黑&quot;, Arial, sans-serif; overflow-x: hidden !important;}code {font-family: Conso">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://mr-robin.top/images/og_image.png">
-<meta property="og:updated_time" content="2019-08-28T08:27:59.459Z">
+<meta property="og:updated_time" content="2019-08-31T14:30:49.504Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Friends&#39; Links">
 <meta name="twitter:description" content="body, html { font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;微软雅黑&quot;, Arial, sans-serif; overflow-x: hidden !important;}code {font-family: Conso">
@@ -406,8 +406,28 @@ margin-top: 6em;
 <span class="ms">ZF的奇妙冒险</span>
   </a>
 </li>
- <br>
+<li class="md-links-item">
+ <a href="http://www.winsloweric.cn" title="Winslow Eric" target="_blank">
+<img src="https://i.loli.net/2019/08/31/ZWQjYJxInXFNAvH.jpg" alt="Winslow Eric" class="logo">
+<span class="md-links-title">Winslow Eric</span><br>
+<span class="ms">一个奇妙的Blog</span>
+  </a>
+</li>
+<!--<li class="md-links-item">
+ <a href="友链地址" title="超链接名" target="_blank">
+<img src="头像地址" alt="图片名" class="logo"/>
+<span class="md-links-title">友链名称</span><br />
+<span class="ms">注释</span>
+  </a>
+</li>-->
+
 </ul>
+
+
+
+ <br>
+
+
 <script type="text/ls-javascript" id="page-links-script">
 function adjustFooter() {
  if( ($('#bottom').offset().top + $('#bottom').outerHeight() )<$(window).height() ) {
@@ -416,10 +436,35 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
  }
 };
 
-<p>function randomSort()<br>{<br> var linkCards = $(‘.md-links-item’).toArray();<br> var linkCardsHTML = new Array();<br> for (var i in linkCards) {<br>linkCardsHTML.push(linkCards[i].innerHTML);<br> }</p>
-<p> var arr = new Array();<br> for (var i = 0; i &lt; linkCards.length; ++i) {<br>arr.push(i)<br> }<br> for (var i = 1; i &lt; arr.length; ++i) {<br>rand = Math.floor(Math.random() * (i + 1));<br>var temp = arr[i];<br>arr[i] = arr[rand];<br>arr[rand] = temp;<br> }</p>
-<p> $(‘.md-links-item’).html(function (index) { return linkCardsHTML[arr[index]]; });<br>}</p>
-<p>$(document).ready(function() {<br> randomSort();<br> adjustFooter();<br>});<br></script><p></p>
+
+function randomSort()
+{
+ var linkCards = $('.md-links-item').toArray();
+ var linkCardsHTML = new Array();
+ for (var i in linkCards) {
+linkCardsHTML.push(linkCards[i].innerHTML);
+ }
+
+ var arr = new Array();
+ for (var i = 0; i < linkCards.length; ++i) {
+arr.push(i)
+ }
+ for (var i = 1; i < arr.length; ++i) {
+rand = Math.floor(Math.random() * (i + 1));
+var temp = arr[i];
+arr[i] = arr[rand];
+arr[rand] = temp;
+ }
+
+ $('.md-links-item').html(function (index) { return linkCardsHTML[arr[index]]; });
+}
+
+$(document).ready(function() {
+ randomSort();
+ adjustFooter();
+});
+</script>
+
 <h2 id="欢迎各位-dalao-交换友链，并交个朋友"><a href="#欢迎各位-dalao-交换友链，并交个朋友" class="headerlink" title="欢迎各位 dalao 交换友链，并交个朋友~"></a>欢迎各位 dalao 交换友链，并交个朋友~</h2><h2 id="关于友链："><a href="#关于友链：" class="headerlink" title="关于友链："></a>关于友链：</h2><h3 id="1-要求："><a href="#1-要求：" class="headerlink" title="1.要求："></a>1.要求：</h3><ul>
 <li>个人博客 Only</li>
 <li>内容合法</li>
@@ -548,7 +593,7 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
                         文章
                     </p>
                     <p class="title has-text-weight-normal">
-                        2
+                        3
                     </p>
                 </div>
             </div>
@@ -568,7 +613,7 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
                         标签
                     </p>
                     <p class="title has-text-weight-normal">
-                        3
+                        4
                     </p>
                 </div>
             </div>
@@ -676,6 +721,25 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
         
         <article class="media">
             
+            <a href="/2019/09/01/nihaojiuyue/" class="media-left">
+                <p class="image is-64x64">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt="你好九月">
+                </p>
+            </a>
+            
+            <div class="media-content">
+                <div class="content">
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-08-31T16:00:00.000Z">2019-09-01</time></div>
+                    <a href="/2019/09/01/nihaojiuyue/" class="title has-link-black-ter is-size-6 has-text-weight-normal">你好九月</a>
+                    <p class="is-size-7 is-uppercase">
+                        <a class="has-link-grey -link" href="/categories/唠嗑/">唠嗑</a>
+                    </p>
+                </div>
+            </div>
+        </article>
+        
+        <article class="media">
+            
             <a href="/2019/08/12/FirstArticle/" class="media-left">
                 <p class="image is-64x64">
                     <img class="thumbnail" src="/images/thumbnail.svg" alt="博客的第一篇文章">
@@ -735,7 +799,7 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
                 <span class="level-item">唠嗑</span>
             </span>
             <span class="level-end">
-                <span class="level-item tag">1</span>
+                <span class="level-item tag">2</span>
             </span>
         </a></li><li>
         <a class="level is-marginless" href="/categories/文档/">
@@ -757,7 +821,7 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
         <h3 class="menu-label">
             标签云
         </h3>
-        <a href="/tags/官方/" style="font-size: 10px;">官方</a> <a href="/tags/水/" style="font-size: 10px;">水</a> <a href="/tags/站点/" style="font-size: 20px;">站点</a>
+        <a href="/tags/官方/" style="font-size: 10px;">官方</a> <a href="/tags/时间/" style="font-size: 10px;">时间</a> <a href="/tags/水/" style="font-size: 20px;">水</a> <a href="/tags/站点/" style="font-size: 20px;">站点</a>
     </div>
 </div>
 
@@ -769,6 +833,17 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
             归档
         </h3>
         <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/09/">
+                <span class="level-start">
+                    <span class="level-item">九月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
         
         <li>
             <a class="level is-marginless" href="/archives/2019/08/">
@@ -802,9 +877,16 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
                 </div>
                 
                 <div class="control">
+                    <a class="tags has-addons" href="/tags/时间/">
+                        <span class="tag">时间</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
                     <a class="tags has-addons" href="/tags/水/">
                         <span class="tag">水</span>
-                        <span class="tag is-grey">1</span>
+                        <span class="tag is-grey">2</span>
                     </a>
                 </div>
                 
@@ -890,7 +972,7 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
                 <span class="level-item">唠嗑</span>
             </span>
             <span class="level-end">
-                <span class="level-item tag">1</span>
+                <span class="level-item tag">2</span>
             </span>
         </a></li><li>
         <a class="level is-marginless" href="/categories/文档/">
@@ -912,7 +994,7 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
         <h3 class="menu-label">
             标签云
         </h3>
-        <a href="/tags/官方/" style="font-size: 10px;">官方</a> <a href="/tags/水/" style="font-size: 10px;">水</a> <a href="/tags/站点/" style="font-size: 20px;">站点</a>
+        <a href="/tags/官方/" style="font-size: 10px;">官方</a> <a href="/tags/时间/" style="font-size: 10px;">时间</a> <a href="/tags/水/" style="font-size: 20px;">水</a> <a href="/tags/站点/" style="font-size: 20px;">站点</a>
     </div>
 </div>
 
@@ -924,6 +1006,17 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
             归档
         </h3>
         <ul class="menu-list">
+        
+        <li>
+            <a class="level is-marginless" href="/archives/2019/09/">
+                <span class="level-start">
+                    <span class="level-item">九月 2019</span>
+                </span>
+                <span class="level-end">
+                    <span class="level-item tag">1</span>
+                </span>
+            </a>
+        </li>
         
         <li>
             <a class="level is-marginless" href="/archives/2019/08/">
@@ -957,9 +1050,16 @@ $('#bottom').css('bottom', '-' + footerBottom + 'px');
                 </div>
                 
                 <div class="control">
+                    <a class="tags has-addons" href="/tags/时间/">
+                        <span class="tag">时间</span>
+                        <span class="tag is-grey">1</span>
+                    </a>
+                </div>
+                
+                <div class="control">
                     <a class="tags has-addons" href="/tags/水/">
                         <span class="tag">水</span>
-                        <span class="tag is-grey">1</span>
+                        <span class="tag is-grey">2</span>
                     </a>
                 </div>
                 
