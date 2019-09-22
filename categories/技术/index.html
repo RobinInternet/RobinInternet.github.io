@@ -2,7 +2,7 @@
 <html lang="zh">
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-<title>分类: 文档 - Robin&#39;s Blog</title>
+<title>分类: 技术 - Robin&#39;s Blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
@@ -10,7 +10,7 @@
     <meta name="keywords" content="Robin">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Robin&#39;s Blog">
-<meta property="og:url" content="http://mr-robin.top/categories/文档/index.html">
+<meta property="og:url" content="http://mr-robin.top/categories/技术/index.html">
 <meta property="og:site_name" content="Robin&#39;s Blog">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:image" content="http://mr-robin.top/images/og_image.png">
@@ -147,7 +147,7 @@
         <ul>
             <li><a href="/categories">分类</a></li>
             
-            <li class="is-active"><a href="#" aria-current="page">文档</a></li>
+            <li class="is-active"><a href="#" aria-current="page">技术</a></li>
         </ul>
         </nav>
     </div>
@@ -159,17 +159,17 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-08-11T15:36:43.539Z">2019-08-11</time>
+                <time class="level-item has-text-grey" datetime="2019-09-22T12:13:42.000Z">2019-09-22</time>
                 
                 <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/文档/">文档</a>
+                <a class="has-link-grey -link" href="/categories/技术/">技术</a>
                 </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    1 分钟 读完 (大约 121 个字)
+                    4 分钟 读完 (大约 610 个字)
                 </span>
                 
                 
@@ -178,24 +178,51 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019/08/11/MyFirstBlog/">Hello World</a>
+                <a class="has-link-black-ter" href="/2019/09/22/jstolinks/">使用JS存储外链以更好的管理</a>
             
         </h1>
         <div class="content">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="hljs-string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+            <h1 id="这是一个测试"><a href="#这是一个测试" class="headerlink" title="这是一个测试"></a>这是一个测试</h1><h2 id="0x00-废话前言"><a href="#0x00-废话前言" class="headerlink" title="0x00 废话前言"></a>0x00 <del>废话</del>前言</h2><p>​            众所周知，卑微站长用不起那些专用服务器，CDN等。本站是挂在Github Pages上的……</p>
+<p>由于服务器在美国，所以国内访问非常非常不稳定（部分时间还可能完全访问不了。总之就是非常非常慢。</p>
+<h1 id="所以！！！"><a href="#所以！！！" class="headerlink" title="所以！！！"></a>所以！！！</h1><p>​            本站的所有体积较大的资源全部是托管在国内的一些免费图床上的。</p>
+<p>这些图床有可能会服务不稳定，<del>也可能会倒闭，</del>……作为一个有深谋远虑的站长，是要做好随时资源搬家的准备的……</p>
+<p>​            因此，作为一个JS菜鸡的站长，今天，花了</p>
+<h1 id="整整一下午-半个晚上的时间"><a href="#整整一下午-半个晚上的时间" class="headerlink" title="整整一下午+半个晚上的时间"></a>整整一下午+半个晚上的时间</h1><p>写了人生中第一行JJavaScript命令，，，                外加一个用于存储图床链接的JS</p>
+<p>对于各位大佬 看到这里可能就要走掉了<u>（怎么可能！！！</u></p>
+<p>毕竟没什么技术含量，，，    但是对这个本就素材匮乏的小站（？破站</p>
+<p>这已经算是个大新闻了，毕竟这个项目就是专门给Blog用的</p>
+<h2 id="0x01写代码（服务伸手党"><a href="#0x01写代码（服务伸手党" class="headerlink" title="0x01写代码（服务伸手党"></a>0x01写代码（服务伸手党</h2><h2 id="js部分"><a href="#js部分" class="headerlink" title="js部分"></a>js部分</h2><p>```// JavaScript Document<code></code>var addata=new Array();<code></code>function ga (type,wz,id,v) {<code></code>var err=0;<code></code>var use=0;<code></code>if(v==”1.0aT”){<code></code>if(type==”blog”){<code></code>if(wz==”test”){<code></code>var zsid=parseInt(id.substring(3,8))<code></code>if(ad_data(日期1)!=”allright”){err=1}else{<code></code>document.getElementById(id).src=addata[zsid];<code></code>use=1;<code></code>};<code></code>};<code></code>};<code></code>};<code></code>if(use!=1){return “OK<del>&gt;1.0aT”}else{“Error</del>1.0aT”};<code></code>}<code></code>function ad_data (p) {<code></code>var run=0;<code></code>if(p==日期1){<code></code>addata[0]=”url1”;<code></code>addata[1]=”url2”;<code></code>run=1;<code></code>}<code></code>if(run!=1){<code></code>return “error”;<code></code>}else{<code></code>return “allright”;<code></code>}`<br>    }``</p>
+<h2 id="Html使用部分"><a href="#Html使用部分" class="headerlink" title="Html使用部分"></a>Html使用部分</h2><script language="JavaScript" src="ga10a.js" type="text/javascript"></script>
+<script type="text/javascript">
+    window.onload = function () {
+    //方法内容
+    ga("blog","test","img00000","1.0aT");
+    ga("blog","test","img00001","1.0aT");
+    }
+</script>
 
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>我也不指望教导萌新了 大佬路过看得懂就行</p>
+<p>不过既然是大佬也没什么可看的了，，，，，，（陷入沉思</p>
+<h2 id="0x02奋斗过程"><a href="#0x02奋斗过程" class="headerlink" title="0x02奋斗过程"></a>0x02奋斗过程</h2><p>有空更新 总之非常艰难 毕竟没有系统的学习和了解过JS</p>
+<p>刚开始连输入调用都不行 还傻乎乎在img标签里搞事件</p>
+<h2 id="0x03实际用途"><a href="#0x03实际用途" class="headerlink" title="0x03实际用途"></a>0x03实际用途</h2><p>有空更新 反正还没全面用上</p>
+<h2 id="0x04调试区域"><a href="#0x04调试区域" class="headerlink" title="0x04调试区域"></a>0x04调试区域</h2><p>这个地方给我调试用…</p>
+<script type="text/javascript">
+    window.onload = function () {
+    //方法内容
+    ga("blog","test","img00000","1.0aT");
+    ga("blog","test","img00001","1.0aT");
+    ga("blog","test","img00002","1.0aT");
+    }
+</script>
 
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<img src="#" id="img00000">
 
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<img src="#" id="img00001">
 
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<img src="#" id="img00002">
 
+<h1 id="未完待续（毕竟是个测试，"><a href="#未完待续（毕竟是个测试，" class="headerlink" title="未完待续（毕竟是个测试，"></a>未完待续（毕竟是个测试，</h1><h2 id="也不是什么正经文章，下周再更新吧-这段时间忙得很"><a href="#也不是什么正经文章，下周再更新吧-这段时间忙得很" class="headerlink" title="也不是什么正经文章，下周再更新吧 这段时间忙得很"></a>也不是什么正经文章，下周再更新吧 这段时间忙得很</h2>
         </div>
         
         
