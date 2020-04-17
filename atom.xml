@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mr-robin.top/"/>
-  <updated>2020-03-14T15:00:18.589Z</updated>
+  <updated>2020-03-14T14:55:43.188Z</updated>
   <id>http://mr-robin.top/</id>
   
   <author>
@@ -15,40 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>爷还活着</title>
-    <link href="http://mr-robin.top/2020/03/14/yehaihuozhe/"/>
-    <id>http://mr-robin.top/2020/03/14/yehaihuozhe/</id>
-    <published>2020-03-14T14:57:01.000Z</published>
-    <updated>2020-03-14T15:00:18.589Z</updated>
-    
-    <content type="html"><![CDATA[<p>爷还活着</p><p>还没有弃坑</p><p>实在是太忙了</p><p>满满的碎片时间</p><p>不知道到底咋利用</p><p>！！！！！！！！！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;爷还活着&lt;/p&gt;
-&lt;p&gt;还没有弃坑&lt;/p&gt;
-&lt;p&gt;实在是太忙了&lt;/p&gt;
-&lt;p&gt;满满的碎片时间&lt;/p&gt;
-&lt;p&gt;不知道到底咋利用&lt;/p&gt;
-&lt;p&gt;！！！！！！！！！&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="唠嗑" scheme="http://mr-robin.top/categories/%E5%94%A0%E5%97%91/"/>
-    
-    
-      <category term="水" scheme="http://mr-robin.top/tags/%E6%B0%B4/"/>
-    
-      <category term="时间" scheme="http://mr-robin.top/tags/%E6%97%B6%E9%97%B4/"/>
-    
-  </entry>
   
   <entry>
     <title>《罗小黑战记》（含福利</title>
@@ -164,9 +130,9 @@
       <category term="唠嗑" scheme="http://mr-robin.top/categories/%E5%94%A0%E5%97%91/"/>
     
     
-      <category term="水" scheme="http://mr-robin.top/tags/%E6%B0%B4/"/>
-    
       <category term="站点" scheme="http://mr-robin.top/tags/%E7%AB%99%E7%82%B9/"/>
+    
+      <category term="水" scheme="http://mr-robin.top/tags/%E6%B0%B4/"/>
     
   </entry>
   
@@ -192,9 +158,9 @@
       <category term="文档" scheme="http://mr-robin.top/categories/%E6%96%87%E6%A1%A3/"/>
     
     
-      <category term="站点" scheme="http://mr-robin.top/tags/%E7%AB%99%E7%82%B9/"/>
-    
       <category term="官方" scheme="http://mr-robin.top/tags/%E5%AE%98%E6%96%B9/"/>
+    
+      <category term="站点" scheme="http://mr-robin.top/tags/%E7%AB%99%E7%82%B9/"/>
     
   </entry>
   
