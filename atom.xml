@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mr-robin.top/"/>
-  <updated>2020-03-14T14:55:43.188Z</updated>
+  <updated>2020-04-19T11:47:51.525Z</updated>
   <id>http://mr-robin.top/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>kaixuekuaileya</title>
+    <link href="http://mr-robin.top/2020/04/19/kaixuekuaileya/"/>
+    <id>http://mr-robin.top/2020/04/19/kaixuekuaileya/</id>
+    <published>2020-04-19T11:46:35.000Z</published>
+    <updated>2020-04-19T11:47:51.525Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="开学快乐呀"><a href="#开学快乐呀" class="headerlink" title="开学快乐呀~"></a>开学快乐呀~</h1><p>明天要开学了呢。。。</p><p>嘿嘿~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;开学快乐呀&quot;&gt;&lt;a href=&quot;#开学快乐呀&quot; class=&quot;headerlink&quot; title=&quot;开学快乐呀~&quot;&gt;&lt;/a&gt;开学快乐呀~&lt;/h1&gt;&lt;p&gt;明天要开学了呢。。。&lt;/p&gt;
+&lt;p&gt;嘿嘿~&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="唠嗑" scheme="http://mr-robin.top/categories/%E5%94%A0%E5%97%91/"/>
+    
+    
+      <category term="水" scheme="http://mr-robin.top/tags/%E6%B0%B4/"/>
+    
+  </entry>
   
   <entry>
     <title>《罗小黑战记》（含福利</title>
@@ -70,9 +98,9 @@
       <category term="技术" scheme="http://mr-robin.top/categories/%E6%8A%80%E6%9C%AF/"/>
     
     
-      <category term="站点" scheme="http://mr-robin.top/tags/%E7%AB%99%E7%82%B9/"/>
-    
       <category term="技术" scheme="http://mr-robin.top/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="站点" scheme="http://mr-robin.top/tags/%E7%AB%99%E7%82%B9/"/>
     
   </entry>
   
@@ -158,9 +186,9 @@
       <category term="文档" scheme="http://mr-robin.top/categories/%E6%96%87%E6%A1%A3/"/>
     
     
-      <category term="官方" scheme="http://mr-robin.top/tags/%E5%AE%98%E6%96%B9/"/>
-    
       <category term="站点" scheme="http://mr-robin.top/tags/%E7%AB%99%E7%82%B9/"/>
+    
+      <category term="官方" scheme="http://mr-robin.top/tags/%E5%AE%98%E6%96%B9/"/>
     
   </entry>
   
